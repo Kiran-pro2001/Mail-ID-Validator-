@@ -67,3 +67,19 @@ if st.button("Validate"):
     st.write(f"**Domain Exists:** {'✅' if domain_exists(email) else '❌'}")
     st.write(f"**Disposable:** {'⚠️ Yes' if is_disposable(email) else '❌ No'}")
     st.write(f"**SMTP Check:** {'✅ Reachable' if smtp_check(email) else 'ℹ️ Not Verified'}")
+
+
+
+st.markdown("<br><br><br>", unsafe_allow_html=True)
+# --- Footer ---
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align: center; font-size: 14px; padding-top: 10px;'>
+        Developed with ❤️ by <strong>Kiran Kumar</strong> |
+        <a href='https://www.linkedin.com/in/kiran-kumar-sde/' target='_blank'>LinkedIn</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
